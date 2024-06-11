@@ -1,0 +1,129 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--branco);
+    padding: 1em 0em;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.cabecalho__empresa {
+    display: flex;
+    align-items: center;
+    color: var(--cor-empresa);
+    gap: 10px;
+
+}
+
+.cabecalho__titulo {
+    font-size: 1.12rem;
+}
+
+
+.cabecalho__lista {
+    display: flex;
+} 
+
+.cabecalho__lista__menu, 
+.cabecalho__lista__cadastro {
+    display: flex;
+    align-items: center;
+     gap: 20px;
+}
+
+.cabecalho__lista__menu {
+    padding-right: 16em;
+}
+
+.cabecalho__lista-link {
+    text-decoration: none;
+    color: var(--cor-principal-texto);
+}
+
+.cabecalho__lista-link-cadastrar {
+    color: var(--branco);
+}
+
+.cabecalho__lista-cadastrar {
+    border: 1px solid var(--cor-destaque);
+    background-color: var(--cor-destaque);
+    border-radius: 5px; 
+    padding: 0.5em;
+}
+
+.cabecalho__botao {
+    display: none;
+}
+
+
+@media (max-width: 1024px){
+
+    .cabecalho {
+        justify-content: space-between;
+        padding: 0 1em;
+        position: relative;
+        margin-top: 1em;
+    }
+
+    /* .cabecalho__titulo {
+        display: none;
+    } */
+
+    .cabecalho__menu {
+        margin-right: 33em;
+    }
+
+    .cabecalho__imagem{
+        margin-right: 1em;
+    }
+
+    .cabecalho__menu-hamburger {
+        width: 24px;
+        height: 24px;
+        background-image: url("../assets/Menu.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: var(--cor-destaque);
+        display: inline-block;
+        padding: 1.5em;  
+    }
+
+    .cabecalho__lista__menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0%;
+        width: 100%;
+        background-color: var(--cor-destaque);
+        padding: 1em;
+    }
+
+    .cabecalho__lista-link {
+        color: var(--branco);
+        font-weight: 400;
+    }
+    
+    .cabecalho__lista-entrar {
+        color: var(--cor-principal-texto); 
+    }
+
+    .cabecalho__lista-item {
+        padding: 0.3em 0;
+    }
+
+    .cabecalho__botao:checked ~ .cabecalho__lista__menu {
+        display: block;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .cabecalho__botao {
+        display: none;
+    }
+
+    .cabecalho__lista__cadastro {
+        margin-right: 0.5em;
+    }
+
+}

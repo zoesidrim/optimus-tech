@@ -1,0 +1,75 @@
+.card {
+    text-align: center;
+    padding: 5em 15em;
+}
+
+.card__sobre {
+    font-size: 1rem;
+    color: var(--cor-destaque);
+    font-weight: 600;
+    padding-bottom: 1em;
+}
+
+.card__titulo {
+    font-weight: 600;
+    font-size: 3rem;
+    padding-bottom: 0.5em;
+    color: var(--preto);
+}
+
+.card__paragrafo {
+    color: var(--cor-principal-texto);
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 30px;
+}
+
+.metricas {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 4em;
+    gap: 40px;
+}
+
+.metricas__filho {
+    padding: 1em;
+} 
+
+.metricas__titulo {
+    padding-right: 1em;
+    font-size: 3.7rem;
+    color: var(--cor-destaque);
+    font-weight: 600;
+}
+
+.metricas__subtitulo {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--preto);
+    padding: 0.8em 0 0.6em 0;
+}
+
+.metricas__paragrafo {
+    font-size: 1rem;
+    color: var(--cor-principal-texto);
+    font-weight: 400;
+    line-height: 22px;
+
+}
+
+@media (max-width: 1024px) {
+
+    .card{
+        padding: 8em 1em;
+    }
+
+    .metricas {
+        flex-direction: column;
+        text-align: center;
+        padding: 0em 2em;
+    }
+
+    .metricas__titulo{
+        padding: 0;
+    }
+}
