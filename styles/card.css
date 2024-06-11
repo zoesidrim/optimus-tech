@@ -56,3 +56,20 @@
     line-height: 22px;
 
 }
+
+@media (max-width: 1024px) {
+
+    .card{
+        padding: 8em 1em;
+    }
+
+    .metricas {
+        flex-direction: column;
+        text-align: center;
+        padding: 0em 2em;
+    }
+
+    .metricas__titulo{
+        padding: 0;
+    }
+}
