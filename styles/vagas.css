@@ -2,7 +2,7 @@
     font-size: 1.25rem;
     font-weight: 500;
     color: var(--preto);
-    margin: 4em 14.5em 2em 14.5em;
+    margin: 3.5em 14.5em 2em 14.5em;
 }
 
 .vagas__emprego {
@@ -15,7 +15,7 @@
     gap: 30px;
 }
 
-.vagas__emprego-um {
+.vagas__emprego-cargo {
     font-size: 1.12rem;
     font-weight: 500;
     color: var(--preto);
