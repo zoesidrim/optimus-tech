@@ -1,0 +1,222 @@
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5em;
+    background-color: rgba(195, 25, 25, 0.03);
+    border-radius: 10px;
+}
+
+.depoimentos__colaboradores{
+    font-size: 0.87rem;
+    font-weight: 700;
+    color: var(--cor-destaque);
+    padding-top: 4em;
+}
+
+.depoimentos__paragrafo{
+    font-size: 2.25rem;
+    font-weight: 500;
+    color: var(--preto);
+    padding: 0.5em 1em 1em 1em;
+    line-height: 1.2em;
+}
+
+.depoimentos__imagem {
+    width: 5%;
+    height: auto;
+    margin: auto;
+}
+
+.depoimentos__nome{
+    font-size: 0.87rem;
+    font-weight: 400;
+    color: var(--cor-principal-texto);
+    padding: 1em 0 0.5em 0;
+}
+
+.depoimentos__cargo{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--preto);
+    padding-bottom: 2em;
+}
+
+.rodape {
+    box-sizing: border-box;
+    text-align: center;
+    background-color: var(--cor-footer);
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+}
+
+.rodape__titulo {
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: var(--preto);
+}
+
+.rodape__paragrafo {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--cor-principal-texto);
+    padding-top: 1em;
+}
+
+.rodape__cadastro {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+} 
+
+.rodape__email {
+    padding: 1em 7em;
+    border-radius: 5px;
+    border: 1px solid var(--cor-footer);
+}
+
+.rodape__email::placeholder {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15px;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+.rodape__botao{
+    background-color: var(--cor-destaque);
+    padding: 0.8em;
+    border-radius: 6px;
+    color: var(--branco);
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 1em;
+}
+
+.rodape__copyright{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--cor-principal-texto);
+    margin: 2em;
+
+}
+
+
+
+@media (max-width: 1024px){
+    .depoimentos__paragrafo{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 769px){
+    .depoimentos__paragrafo{
+        font-size: 1.3rem;
+    }
+
+    .rodape__titulo {
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: var(--preto);
+    }
+}
+
+@media (max-width: 655px){
+    .depoimentos{
+        margin: 3em;
+    }
+    
+    .depoimentos__paragrafo{
+        font-size: 1rem;
+    }
+
+    .rodape__titulo {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: var(--preto);
+    }
+
+    .rodape__paragrafo {
+        font-size: 1rem;
+    }
+
+    .rodape__email{
+        padding: 0.7em 4em;
+    }
+
+    .rodape__botao{
+        padding: 0.6em;
+    }
+
+    .rodape__copyright{
+        font-size: 0.8rem;
+    
+    }
+}
+
+@media (max-width: 585px){
+    
+    .depoimentos__colaboradores{
+        font-size: 0.6rem;
+    }
+
+    .depoimentos__paragrafo{
+        font-size: 0.8rem;
+    }
+
+    .depoimentos__imagem {
+        width: 8%;
+        height: auto;
+        margin: auto;
+    }
+
+    
+    .depoimentos__cargo{
+        font-size: 0.7rem;
+        font-weight: 500;
+        color: var(--preto);
+        padding-bottom: 2em;
+    }
+
+    .rodape{
+        padding: 2em;
+    }
+
+    .rodape__titulo {
+        font-size: 1rem;
+        font-weight: 600;
+        color: var(--preto);
+    }
+
+    .rodape__paragrafo {
+        font-size: 0.6rem;
+    }
+
+    .rodape__email{
+        padding: 0.5em 3em;
+    }
+    
+    .rodape__email::placeholder {
+        font-size: 0.6rem;
+    }
+    
+    .rodape__botao{
+        padding: 0.2;
+        font-size: 0.7rem;
+    }
+    
+    .rodape__copyright{
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width: 585px){
+    .depoimentos{
+        margin: 1.5em;
+    }
+}
