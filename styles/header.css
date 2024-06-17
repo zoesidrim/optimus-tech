@@ -203,7 +203,8 @@
 }
 
 @media (max-width: 445px){
-    .cabecalho{
-        padding: 0em;
+
+    .cabecalho__empresa {
+        margin-left: 0;
     }
 }
