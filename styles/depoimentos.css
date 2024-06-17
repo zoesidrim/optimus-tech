@@ -70,19 +70,17 @@
     display: flex;
     justify-content: center;
     margin-top: 2em;
+    align-items: center;
+
 } 
 
 .rodape__email {
-    padding: 1em 7em;
+    padding: 1em 15em 1em 1em;
     border-radius: 5px;
     border: 1px solid var(--cor-footer);
 }
 
 .rodape__email::placeholder {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 15px;
     font-size: 1rem;
     font-weight: 400;
     text-align: left;
@@ -146,7 +144,7 @@
     }
 
     .rodape__email{
-        padding: 0.7em 4em;
+        padding: 0.7em 8em 0.7em 0.8em;
     }
 
     .rodape__botao{
@@ -198,7 +196,7 @@
     }
 
     .rodape__email{
-        padding: 0.5em 3em;
+        padding: 0.5em 5em 0.5em 0.4em;
     }
     
     .rodape__email::placeholder {
@@ -206,7 +204,7 @@
     }
     
     .rodape__botao{
-        padding: 0.2;
+        padding: 0.1;
         font-size: 0.7rem;
     }
     
