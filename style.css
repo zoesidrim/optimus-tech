@@ -1,7 +1,7 @@
 @import url("./styles/header.css");
 @import url("./styles/card.css");
 @import url("./styles/talentos.css");
-@import url("./styles/vagas.css");
+@import url("./styles/depoimentos.css");
 
 * {
     box-sizing: border-box;
@@ -15,6 +15,7 @@
     --preto: #101828;
     --cor-empresa: #3A404E;
     --cor-borda: #EAECF0;
+    --cor-footer: #F9FAFB;
 
 
 }

@@ -35,3 +35,107 @@
     width: 85%;
     height: auto;
 } 
+
+.vagas__titulo {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--preto);
+    margin: 3.5em 14.5em 2em 14.5em;
+}
+
+.vagas__emprego {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--cor-borda);
+    border-radius: 10px;
+    padding: 2em;
+    margin: 1em 18em;
+    gap: 30px;
+}
+
+.vagas__emprego-cargo {
+    font-size: 1.12rem;
+    font-weight: 500;
+    color: var(--preto);
+}
+
+.vagas__emprego-lista {
+    display: flex;
+    gap: 20px;
+    font-weight: 500; 
+    font-size: 1rem;
+    color: var(--cor-principal-texto);
+}
+
+@media (max-width: 1024px) {
+    
+    .vagas__emprego {
+        margin: 1em 10em;
+    }
+
+    .vagas__titulo {
+        margin: 3.5em 8em 2em 8em;
+    }
+}
+
+@media (max-width: 655px){
+    .talentos{
+        margin: 3em;
+    }
+
+    .talentos__titulo {
+        margin: 1em;
+        font-size: 2rem;
+        font-weight: 600;
+        color: var(--preto)
+    }
+
+    .talentos__imagem {
+        width: 100%;
+        height: auto;
+    } 
+
+    .vagas__titulo {
+        font-size: 1rem;
+        margin: 3.5em 6em 2em 6em;
+    }
+    
+    .vagas__emprego {
+        padding: 2em;
+        margin: 1em 6em;
+        gap: 30px;
+    }
+    
+    .vagas__emprego-cargo {
+        font-size: 1rem;
+        font-weight: 500;
+        color: var(--preto);
+    }
+    
+    .vagas__emprego-lista {
+        font-size: 0.8rem;
+    }
+    
+
+}
+
+@media (max-width: 449px){
+
+    .talentos__titulo {
+        margin: 1em 0.5em;
+    }
+
+    .talentos__paragrafo {
+        margin-bottom: 2em;
+    }
+
+    .vagas__titulo {
+        margin: 3em 4em 2em 3em;
+    }
+    
+    .vagas__emprego {
+        padding: 2em;
+        margin: 1em 3em;
+        gap: 30px;
+    }
+}
