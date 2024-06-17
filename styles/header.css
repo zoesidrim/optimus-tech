@@ -40,11 +40,11 @@
     color: var(--cor-principal-texto);
 }
 
-.cabecalho__lista-link-cadastrar {
+.cabecalho__lista-link-cadastro {
     color: var(--branco);
 }
 
-.cabecalho__lista-cadastrar {
+.cabecalho__lista-cadastro {
     border: 1px solid var(--cor-destaque);
     background-color: var(--cor-destaque);
     border-radius: 5px; 
@@ -183,6 +183,12 @@
 }
 
 @media (max-width: 445px){
+
+    
+    .cabecalho__empresa {
+        margin-left: 1em;
+    }
+    
     .cabecalho__menu-hamburger {
         margin: 0;
     }
@@ -193,5 +199,11 @@
 
     .cabecalho__lista__menu {
         font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 445px){
+    .cabecalho{
+        padding: 0em;
     }
 }
