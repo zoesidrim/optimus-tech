@@ -78,7 +78,7 @@
 @media (max-width: 769px){
     .card {
         text-align: center;
-        padding: 5em 5em;
+        padding: 5em 5em 3em 5em;
     }
 
     .metricas {
@@ -95,6 +95,9 @@
         padding: 1em;
     }
 
+    .card__sobre{
+        margin-top: 1em;
+    }
 }
 
 
